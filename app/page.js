@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import MainSection from './components/MainSection'
-import Navbar from './components/Navbar'
+import Navbar from './components/NavBar'
 import SkillsSection from './components/SkillsSection'
 import EmailSection from './components/EmailSection'
 import Footer from './components/Footer'

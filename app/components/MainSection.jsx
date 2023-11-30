@@ -16,7 +16,7 @@ const MainSection = () => {
 
             <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-                    Hi! I'm {""}
+                    Hi! I am {""}
                 </span>
                 <br></br>
                 <TypeAnimation
@@ -60,14 +60,13 @@ const MainSection = () => {
         >
           {/* <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative"> */}
           <div className="rounded-full bg-[#000000] w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] relative">
-
-            <Image
-              src="/images/gitcard.jpg"
-              alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
-              height={300}
-            />
+          <Image
+            src="/images/gitcard.jpg"
+            alt="hero image"
+            className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            width={300}
+            height={300}
+          />
           </div>
         </motion.div>
     </div>
